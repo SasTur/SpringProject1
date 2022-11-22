@@ -7,6 +7,7 @@ import java.util.List;
 
 @Scope("prototype")
 public class Computer {
+    AccessoriesInfo accessoriesInfo;
     private List<AccessoriesInfo> list = new ArrayList<>();
 
     public Computer() {

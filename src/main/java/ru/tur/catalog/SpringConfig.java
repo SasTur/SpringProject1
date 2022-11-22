@@ -12,8 +12,8 @@ import java.util.List;
 @ComponentScan("ru.tur.catalog")
 public class SpringConfig {
     @Bean
-    public Screen compBean1() {
-        return new Screen();
+    public Monitor compBean1() {
+        return new Monitor();
     }
 
     @Bean
